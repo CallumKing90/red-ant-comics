@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render the button 1`] = `
+<button
+  role="button"
+>
+  Button text
+</button>
+`;
+
+exports[`Button should render with a class name 1`] = `
+<button
+  class="className"
+  role="button"
+>
+  Button text
+</button>
+`;
+
+exports[`Button should render with an onClick function 1`] = `
+<button
+  role="button"
+>
+  Button text
+</button>
+`;
