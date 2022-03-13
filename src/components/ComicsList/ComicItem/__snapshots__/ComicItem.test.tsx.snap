@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComicItem should render the ComicItem component 1`] = `
+<li
+  class="comic-item"
+  data-testid="comic-item"
+  id="1234"
+>
+  <div
+    class="comic-card"
+  >
+    <img
+      alt="TestComic"
+      data-testid="comic-image"
+      loading="lazy"
+      role="img"
+      src="pathToThumbnail/standard_fantastic.jpg"
+    />
+    <h2>
+      TestComic
+    </h2>
+    <button
+      class="button js-add"
+      role="button"
+    >
+      Add to favourites
+    </button>
+  </div>
+</li>
+`;
+
+exports[`ComicItem should show 'Add to Favourites' button when id not in favourites array 1`] = `
+<button
+  class="button js-add"
+  role="button"
+>
+  Add to favourites
+</button>
+`;
+
+exports[`ComicItem should show 'Add to Favourites' button when id not in favourites array 2`] = `
+<button
+  class="button js-add"
+  role="button"
+>
+  Remove from favourites
+</button>
+`;
+
+exports[`ComicItem should show 'Remove from Favourites' button when id not in favourites array 1`] = `
+<button
+  class="button js-add"
+  role="button"
+>
+  Remove from favourites
+</button>
+`;
+
+exports[`ComicItem should show 'Remove from Favourites' button when id not in favourites array 2`] = `
+<button
+  class="button js-add"
+  role="button"
+>
+  Add to favourites
+</button>
+`;

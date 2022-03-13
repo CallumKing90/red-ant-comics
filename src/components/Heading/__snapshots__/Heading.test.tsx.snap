@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading should render h1 variation 1`] = `
+<h1>
+  My heading
+</h1>
+`;
+
+exports[`Heading should render h2 variation 1`] = `
+<h2>
+  My heading
+</h2>
+`;
+
+exports[`Heading should render heading with class name 1`] = `
+<p
+  class="exampleclass"
+>
+  My heading
+</p>
+`;
+
+exports[`Heading should render heading with text 1`] = `
+<p>
+  Example text
+</p>
+`;
+
+exports[`Heading should render paragraph when no variation passed 1`] = `
+<p>
+  My heading
+</p>
+`;

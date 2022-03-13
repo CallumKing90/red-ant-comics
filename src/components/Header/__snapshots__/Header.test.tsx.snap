@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render the header 1`] = `
+<header
+  class="site-header"
+  role="banner"
+>
+  <h1
+    class="site-heading"
+  >
+    Red Ant Comics
+  </h1>
+  <button
+    class="favourites-toggle js-favourites-toggle"
+    role="button"
+  />
+</header>
+`;
